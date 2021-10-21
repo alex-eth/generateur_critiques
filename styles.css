@@ -1,0 +1,93 @@
+body {
+	margin: 1%;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+textarea {
+	border: none;
+	padding: 10px 20px;
+	resize: none;
+	outline: solid black;
+	overflow: hidden;
+}
+
+table {
+	margin: 0 0 2% 0;
+	width: 50%;
+}
+
+.frm {
+	display: grid;
+}
+
+#idUtilisateur {
+	width: 390px;
+	border-radius: 15px;
+}
+
+#titre {
+	width: 390px;
+	border-radius: 15px;
+}
+
+#auteur {
+	width: 390px;
+	border-radius: 15px;
+	margin: 5px 0 2% 0;
+}
+
+#resume {
+	width: 75%;
+	border-radius: 15px;
+}
+
+#pqRessenti {
+	width: 75%;
+	border-radius: 15px;
+	margin: 0 0 2% 0;
+}
+
+.star-rating {
+	position: absolute;
+	left: 100px;
+	display: flex;
+	align-items: left;
+	width: 160px;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 40px auto;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating > label {
+	width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: orange;
+}
+
+.star-rating label:hover {
+    color: #cc7d00;
+    transition: 0.2s ease;
+}
+.star-rating label:active::before {
+    transform:scale(1.1);
+}
+
+.star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+}
+
+.star-rating input:checked ~ label:before {
+    content:'\2605';
+}
+
