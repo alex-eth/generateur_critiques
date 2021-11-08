@@ -108,7 +108,7 @@ function Facon(){
 function Age() {
 	let sliderVal = "à partir de " + document.getElementById("myRange").value;
 	if (sliderVal === "à partir de 16" ) {
-		sliderVal = 'plus de 15 ans';
+		sliderVal = 'plus de 15';
 	};
 	document.getElementById("age").innerHTML = sliderVal + ' ans';
 };
