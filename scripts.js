@@ -10,7 +10,7 @@ function PqRessenti() {return document.getElementById('pqRessenti').value};
 
 function Recomm() {
 	let elt = document.getElementById('slctRecomm');
-	return 'car' + elt.options[elt.selectedIndex].value;
+	return '' + elt.options[elt.selectedIndex].value;
 };
 
 function Type(){
