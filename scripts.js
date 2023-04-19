@@ -141,7 +141,7 @@ var age = Age();
 
 function genere(idUt,titre,auteur,type,genre,theme,resume,ressenti,pqRessenti,rating,quali,facon,recomm,age) {
 	
-	return  titre +', écrit par '+ auteur +', est '+ type +' '+ genre +' qui parle '+ theme + '. '+ resume +"L'histoire nous fait ressentir "+ ressenti + pqRessenti +'. '+ rating + quali +'. Ce livre '+ facon +" est "+ recomm +" pour les lecteurs à partir de "+ age +"ans!"; 
+	return  titre +', écrit par '+ auteur +', est '+ type +' '+ genre +' qui parle '+ theme + '. '+ resume +"L'histoire nous fait ressentir "+ ressenti + pqRessenti +'. '+ rating + quali +'. Ce livre '+ facon +" est "+ recomm +".Il est par ailleurs plutôt déstiné pour les lecteurs à partir de "+ age +"ans!"; 
 };
 
 document.getElementById("genere").onclick = function(){document.getElementById("outputCrit").innerHTML = genere(IdUt(),Titre(),Auteur(),Type(),Genre(),Theme(),Resume(),Ressenti(),PqRessenti(),etoiles(),Quali(),Facon(),Recomm(),document.getElementById("myRange").value)};
