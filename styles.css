@@ -25,6 +25,13 @@ table {
 	padding: 5px;
 }
 
+.titre3 {
+	background-color: rgb(203 255 203);
+	width: 230px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
 #formulaire {
 	border: solid #03635a;
 	width: 1000px;
