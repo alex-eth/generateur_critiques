@@ -18,11 +18,19 @@ table {
 	width: 50%;
 }
 
+h2 {
+	background-color: rgb(203 255 203);
+	width: 305px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
 #formulaire {
-	border: solid black;
+	border: solid #03635a;
 	width: 1000px;
 	padding: 10px;
 	margin: 5px;
+	border-radius:19px;
 }
 
 .frm {
