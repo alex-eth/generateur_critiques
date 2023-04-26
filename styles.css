@@ -18,6 +18,20 @@ table {
 	width: 50%;
 }
 
+.personalisation {
+	background-color: #d2f4d0;
+	width: 245px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.aide {
+	background-color: #d2f4d0;
+	width: 500px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
 .titre2 {
 	background-color: rgb(203 255 203);
 	width: 305px;
