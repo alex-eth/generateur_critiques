@@ -32,6 +32,11 @@ table {
 	padding: 5px;
 }
 
+button {
+	border-radius: 8px;
+	background-color:#def2c4
+}
+
 .titre2 {
 	background-color: rgb(203 255 203);
 	width: 305px;
